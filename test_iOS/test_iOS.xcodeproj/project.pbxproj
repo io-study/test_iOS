@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D56181929EBDA74008ED241 /* CommonMainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56181829EBDA74008ED241 /* CommonMainLabel.swift */; };
+		3D56181C29EBDB0A008ED241 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3D56181B29EBDB0A008ED241 /* SnapKit */; };
+		3D56181F29EBDB19008ED241 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 3D56181E29EBDB19008ED241 /* Then */; };
+		3D56182429EBE0BC008ED241 /* CommonFirstTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56182329EBE0BC008ED241 /* CommonFirstTextField.swift */; };
+		3D56182629EBE234008ED241 /* CommonSeccondTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56182529EBE234008ED241 /* CommonSeccondTextField.swift */; };
+		3D56182829EBE544008ED241 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56182729EBE544008ED241 /* CommonButton.swift */; };
+		3D56182B29EBE69B008ED241 /* ButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56182A29EBE69B008ED241 /* ButtonColor.swift */; };
+		3D56182D29EBF59E008ED241 /* LoginFindPWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56182C29EBF59E008ED241 /* LoginFindPWButton.swift */; };
+		3D56182F29EBF5C8008ED241 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D56182E29EBF5C8008ED241 /* Color.xcassets */; };
+		3D56183129EBF763008ED241 /* LoginSignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56183029EBF763008ED241 /* LoginSignUpButton.swift */; };
 		D0935DC129EA732A00917F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0935DC029EA732A00917F7F /* AppDelegate.swift */; };
 		D0935DC329EA732A00917F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0935DC229EA732A00917F7F /* SceneDelegate.swift */; };
 		D0935DC529EA732A00917F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0935DC429EA732A00917F7F /* ViewController.swift */; };
@@ -15,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D56181829EBDA74008ED241 /* CommonMainLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMainLabel.swift; sourceTree = "<group>"; };
+		3D56182329EBE0BC008ED241 /* CommonFirstTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFirstTextField.swift; sourceTree = "<group>"; };
+		3D56182529EBE234008ED241 /* CommonSeccondTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSeccondTextField.swift; sourceTree = "<group>"; };
+		3D56182729EBE544008ED241 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		3D56182A29EBE69B008ED241 /* ButtonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColor.swift; sourceTree = "<group>"; };
+		3D56182C29EBF59E008ED241 /* LoginFindPWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFindPWButton.swift; sourceTree = "<group>"; };
+		3D56182E29EBF5C8008ED241 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		3D56183029EBF763008ED241 /* LoginSignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpButton.swift; sourceTree = "<group>"; };
 		D0935DBD29EA732A00917F7F /* test_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0935DC029EA732A00917F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0935DC229EA732A00917F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,12 +47,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D56181C29EBDB0A008ED241 /* SnapKit in Frameworks */,
+				3D56181F29EBDB19008ED241 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D56181729EBD9F8008ED241 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D56182229EBE08E008ED241 /* Common_Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D56182229EBE08E008ED241 /* Common_Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D56181829EBDA74008ED241 /* CommonMainLabel.swift */,
+				3D56182329EBE0BC008ED241 /* CommonFirstTextField.swift */,
+				3D56182529EBE234008ED241 /* CommonSeccondTextField.swift */,
+				3D56182729EBE544008ED241 /* CommonButton.swift */,
+				3D56182C29EBF59E008ED241 /* LoginFindPWButton.swift */,
+				3D56183029EBF763008ED241 /* LoginSignUpButton.swift */,
+			);
+			path = Common_Views;
+			sourceTree = "<group>";
+		};
+		3D56182929EBE663008ED241 /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+				3D56182A29EBE69B008ED241 /* ButtonColor.swift */,
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
 		D0935DB429EA732A00917F7F = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +103,13 @@
 		D0935DBF29EA732A00917F7F /* test_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3D56182929EBE663008ED241 /* Utill */,
+				3D56181729EBD9F8008ED241 /* Views */,
 				D0935DC029EA732A00917F7F /* AppDelegate.swift */,
 				D0935DC229EA732A00917F7F /* SceneDelegate.swift */,
 				D0935DC429EA732A00917F7F /* ViewController.swift */,
 				D0935DC929EA732C00917F7F /* Assets.xcassets */,
+				3D56182E29EBF5C8008ED241 /* Color.xcassets */,
 				D0935DCB29EA732C00917F7F /* LaunchScreen.storyboard */,
 				D0935DCE29EA732C00917F7F /* Info.plist */,
 			);
@@ -81,6 +133,8 @@
 			);
 			name = test_iOS;
 			packageProductDependencies = (
+				3D56181B29EBDB0A008ED241 /* SnapKit */,
+				3D56181E29EBDB19008ED241 /* Then */,
 			);
 			productName = test_iOS;
 			productReference = D0935DBD29EA732A00917F7F /* test_iOS.app */;
@@ -111,6 +165,8 @@
 			);
 			mainGroup = D0935DB429EA732A00917F7F;
 			packageReferences = (
+				3D56181A29EBDB0A008ED241 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3D56181D29EBDB19008ED241 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = D0935DBE29EA732A00917F7F /* Products */;
 			projectDirPath = "";
@@ -128,6 +184,7 @@
 			files = (
 				D0935DCD29EA732C00917F7F /* LaunchScreen.storyboard in Resources */,
 				D0935DCA29EA732C00917F7F /* Assets.xcassets in Resources */,
+				3D56182F29EBF5C8008ED241 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D56182829EBE544008ED241 /* CommonButton.swift in Sources */,
 				D0935DC529EA732A00917F7F /* ViewController.swift in Sources */,
 				D0935DC129EA732A00917F7F /* AppDelegate.swift in Sources */,
+				3D56181929EBDA74008ED241 /* CommonMainLabel.swift in Sources */,
+				3D56182429EBE0BC008ED241 /* CommonFirstTextField.swift in Sources */,
+				3D56182629EBE234008ED241 /* CommonSeccondTextField.swift in Sources */,
 				D0935DC329EA732A00917F7F /* SceneDelegate.swift in Sources */,
+				3D56182B29EBE69B008ED241 /* ButtonColor.swift in Sources */,
+				3D56182D29EBF59E008ED241 /* LoginFindPWButton.swift in Sources */,
+				3D56183129EBF763008ED241 /* LoginSignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +348,6 @@
 				INFOPLIST_FILE = test_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +375,6 @@
 				INFOPLIST_FILE = test_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -350,6 +412,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D56181A29EBDB0A008ED241 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3D56181D29EBDB19008ED241 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D56181B29EBDB0A008ED241 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D56181A29EBDB0A008ED241 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		3D56181E29EBDB19008ED241 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D56181D29EBDB19008ED241 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0935DB529EA732A00917F7F /* Project object */;
 }
